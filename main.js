@@ -93,7 +93,7 @@ function selectAccount(accountName, index) {
   // Crea el boton de ingresar
   br3.innerHTML = "Ingresar";
   br3.addEventListener("click", () => {
-    checkPass(accountName, passInput, index);
+    checkPass(passInput, index);
   });
   // Crea botón de atras
   bl3.innerHTML = "Atrás";
@@ -101,7 +101,7 @@ function selectAccount(accountName, index) {
 }
 
 /* Función Checa si el password es correcto */
-function checkPass(accountName, input, index) {
+function checkPass(input, index) {
   // Checa si esta vacio primero
   if (input.value !== "") {
     if (cuentas[index].password === input.value) {
