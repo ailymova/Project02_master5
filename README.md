@@ -7,7 +7,7 @@
 - Elegir entre cuentas disponibles a interactuar
 - Validad usuario y contraseña para acceder a cuentas
 - Consultar saldo: Mostrar en pantalla el saldo actual
-- Deposito: Ingresar monto a depositar, mostrar total y deposito
+- Depositar: Ingresar monto a depositar, mostrar total y deposito
 - Retirar: Ingresar monto a retirar, mostrar total y retiro
 
 ## Reglas de las cuentas
